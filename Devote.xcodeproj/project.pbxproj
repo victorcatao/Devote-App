@@ -132,15 +132,15 @@
 			isa = PBXGroup;
 			children = (
 				FCAADEAA2A9A55AE00DE6307 /* Info.plist */,
-				FCAADE8E2A9A54DC00DE6307 /* Assets.xcassets */,
 				FCAADE8A2A9A54DC00DE6307 /* DevoteApp.swift */,
-				FCAADEA32A9A552B00DE6307 /* Sound */,
-				FCAADEA92A9A555200DE6307 /* Model */,
-				FCAADEA72A9A554300DE6307 /* Style */,
-				FCAADEA62A9A553F00DE6307 /* Utility */,
-				FCAADEA52A9A553C00DE6307 /* Extension */,
-				FCAADEA42A9A553300DE6307 /* View */,
+				FCAADE8E2A9A54DC00DE6307 /* Assets.xcassets */,
+				FCB3F5B62A9E2191005EA05C /* Extension */,
+				FCB3F5B32A9E2180005EA05C /* Model */,
 				FCAADE902A9A54DC00DE6307 /* Preview Content */,
+				FCB3F5B12A9E2171005EA05C /* Sound */,
+				FCB3F5B42A9E2187005EA05C /* Style */,
+				FCB3F5B52A9E218C005EA05C /* Utility */,
+				FCB3F5B72A9E219C005EA05C /* View */,
 			);
 			path = Devote;
 			sourceTree = "<group>";
@@ -151,64 +151,6 @@
 				FCAADE912A9A54DC00DE6307 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FCAADEA32A9A552B00DE6307 /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				FCAADE9F2A9A551600DE6307 /* sound-ding.mp3 */,
-				FCAADE9D2A9A551600DE6307 /* sound-rise.mp3 */,
-				FCAADE9E2A9A551600DE6307 /* sound-tap.mp3 */,
-			);
-			name = Sound;
-			sourceTree = "<group>";
-		};
-		FCAADEA42A9A553300DE6307 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FCAADE8C2A9A54DC00DE6307 /* ContentView.swift */,
-				FCAADEBB2A9A6E9700DE6307 /* NewTaskItemView.swift */,
-				FCAADEB92A9A6E3800DE6307 /* BackgroundImageView.swift */,
-				FCAADEBD2A9A70D300DE6307 /* BlankView.swift */,
-				FCAADEBF2A9A9F6E00DE6307 /* ListRowItemView.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		FCAADEA52A9A553C00DE6307 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				FCAADEB52A9A671300DE6307 /* HideKeyboardExtension.swift */,
-			);
-			name = Extension;
-			sourceTree = "<group>";
-		};
-		FCAADEA62A9A553F00DE6307 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				FCAADEAF2A9A629500DE6307 /* Constant.swift */,
-				FCAADEC52A9AA81500DE6307 /* SoundPlayer.swift */,
-			);
-			name = Utility;
-			sourceTree = "<group>";
-		};
-		FCAADEA72A9A554300DE6307 /* Style */ = {
-			isa = PBXGroup;
-			children = (
-				FCAADEC32A9AA0FD00DE6307 /* CheckboxStyle.swift */,
-			);
-			name = Style;
-			sourceTree = "<group>";
-		};
-		FCAADEA92A9A555200DE6307 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FCAADEB12A9A636900DE6307 /* Item+CoreDataClass.swift */,
-				FCAADEB22A9A636900DE6307 /* Item+CoreDataProperties.swift */,
-				FCAADE932A9A54DC00DE6307 /* Persistence.swift */,
-				FCAADE952A9A54DC00DE6307 /* Devote.xcdatamodeld */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		FCAADECC2A9AAAFD00DE6307 /* Frameworks */ = {
@@ -229,6 +171,64 @@
 				FCAADED82A9AAAFE00DE6307 /* Info.plist */,
 			);
 			path = DevoteWidget;
+			sourceTree = "<group>";
+		};
+		FCB3F5B12A9E2171005EA05C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				FCAADE9F2A9A551600DE6307 /* sound-ding.mp3 */,
+				FCAADE9D2A9A551600DE6307 /* sound-rise.mp3 */,
+				FCAADE9E2A9A551600DE6307 /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		FCB3F5B32A9E2180005EA05C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCAADEB12A9A636900DE6307 /* Item+CoreDataClass.swift */,
+				FCAADEB22A9A636900DE6307 /* Item+CoreDataProperties.swift */,
+				FCAADE932A9A54DC00DE6307 /* Persistence.swift */,
+				FCAADE952A9A54DC00DE6307 /* Devote.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCB3F5B42A9E2187005EA05C /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				FCAADEC32A9AA0FD00DE6307 /* CheckboxStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		FCB3F5B52A9E218C005EA05C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FCAADEAF2A9A629500DE6307 /* Constant.swift */,
+				FCAADEC52A9AA81500DE6307 /* SoundPlayer.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FCB3F5B62A9E2191005EA05C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FCAADEB52A9A671300DE6307 /* HideKeyboardExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FCB3F5B72A9E219C005EA05C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCAADE8C2A9A54DC00DE6307 /* ContentView.swift */,
+				FCAADEBB2A9A6E9700DE6307 /* NewTaskItemView.swift */,
+				FCAADEB92A9A6E3800DE6307 /* BackgroundImageView.swift */,
+				FCAADEBD2A9A70D300DE6307 /* BlankView.swift */,
+				FCAADEBF2A9A9F6E00DE6307 /* ListRowItemView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
